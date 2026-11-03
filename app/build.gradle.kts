@@ -4,12 +4,12 @@ plugins {
 
 android {
     namespace = "uk.flood.noise"
-    compileSdk = 34
+    compileSdk = 37
 
     defaultConfig {
         applicationId = "uk.flood.noise"
         minSdk = 28
-        targetSdk = 34
+        targetSdk = 37
         versionCode = 1
         versionName = "1"
     }

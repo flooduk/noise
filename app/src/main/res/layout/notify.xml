@@ -9,8 +9,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/app_name"
+        android:visibility="gone"
         android:textColor="@android:color/primary_text_dark"
-        android:textSize="16sp" />
+        android:textSize="48sp" />
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -26,7 +27,8 @@
             android:background="@drawable/default_button"
             android:src="@android:drawable/ic_media_play"
             android:padding="16dp"
-            android:layout_margin="16dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
             />
 
         <ImageButton
@@ -37,7 +39,8 @@
             android:background="@drawable/default_button"
             android:src="@android:drawable/ic_media_pause"
             android:padding="16dp"
-            android:layout_margin="16dp"/>
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"/>
 
     </LinearLayout>
 </LinearLayout>
